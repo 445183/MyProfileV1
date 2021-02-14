@@ -1,0 +1,84 @@
+title {
+    color:blueviolet
+}
+h1 {
+    color:red
+}
+h2 {
+    color:greenyellow
+}
+h3{
+    color:yellow
+}
+p {
+    color:cyan
+}
+* {
+    border:solid;
+}
+.container {
+    background-color:lawngreen;
+    font-family: fantasy;
+    text-align: center;
+   
+}
+.container1 {
+    background-color:white;
+}
+
+.game {
+    background-color:black;
+    font-family: monospace;
+    text-align: center;  
+}
+
+.game img{
+    width:250px;
+    height:250px;
+    border-radius: 250px;
+    padding: 20px;
+    background-color: cornsilk;
+    border-color: red;
+    border-width: 5px;
+}
+
+.name{
+    background-color: black;
+    font-family:cursive;
+    text-align: center;
+}
+
+.image img{
+    width: 500px;
+    height: 500px;
+    border-radius:500px;
+    padding:20px;
+    border-color:gold;
+    background-color:black ;
+}
+
+.image{
+    background-image: url("backgroundImg.jpg");
+    text-align: center;
+}
+
+.section{
+  background: crimson;
+  text-transform:inherit;
+  font-family:monospace;
+  text-align: center;
+  display: flex;
+  flex-direction: column;  
+}
+
+.containerforgames {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction:column;
+}
+
+.game img{
+    width:300px;
+    height:300px;
+}
